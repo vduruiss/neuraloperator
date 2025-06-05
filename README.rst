@@ -191,7 +191,7 @@ If you use NeuralOperator in an academic paper, please cite [1]_, [2]_::
    @article{kovachki2021neural,
       author    = {Nikola B. Kovachki and
                      Zongyi Li and
-                     Burigede Liu and 
+                     Burigede Liu and
                      Kamyar Azizzadenesheli and
                      Kaushik Bhattacharya and
                      Andrew M. Stuart and
