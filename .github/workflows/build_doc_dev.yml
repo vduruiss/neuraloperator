@@ -43,7 +43,7 @@ jobs:
         make html
         cd ..
     - name: Push docs on main update
-      if: success() && github.ref == 'refs/heads/main'
+      if: success() && github.ref == 'refs/heads/main' && github.repository == 'neuraloperator/neuraloperator'
       run: |
         # Add deploy key and clone through ssh
         eval "$(ssh-agent -s)"
